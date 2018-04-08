@@ -18,7 +18,7 @@ class MyViewController : UIViewController {
         
         view.addSubview(view2, constraints: anchorEdgesToSuperviewEdges(insets: insets))
             
-        view2.addSubview(view3, constraints: sizedToRect(CGRect(x: 50, y: 50, width: 150, height: 200)))
+        view2.addSubview(view3, constraints: sizedToRect(CGRect(x: 180, y: 50, width: 150, height: 200)))
         
         self.view = view
     }
